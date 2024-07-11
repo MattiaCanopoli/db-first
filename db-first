@@ -1,0 +1,15 @@
+ID                              MEDIUMINT       PRIMARY_KEY   UNSIGNED    AUTO_INCREMENT NOT_NULL
+marca                           VARCHAR(50)     NOT_NULL
+modello                         VARCHAR(50)     NOT_NULL
+alimentazione                   VARCHAR(20)     NOT_NULL
+targa                           VARCHAR(7)      NULL          UNIQUE
+anno__prima_immatricolazione    YEAR            NOT_NULL
+kilometraggio                   MEDIUMINT       NOT_NULL      UNSIGNED
+cambio                          VARCHAR(10)     NOT_NULL
+n_porte                         TYNYINT         NULL
+carrozeria                      VARCHAR(20)     NULL
+prezzo_vendita                  DECIMAL(7,2)    NULL
+prezzo_acquisto                 DECIMAL(7,2)    NULL
+potenza_cv                      SMALLINT        NULL          UNSIGNED
+potenza_kw                      SMALLINT        NULL          UNSIGNED   
+
